@@ -70,7 +70,7 @@ def get_mentions(api, self_username, since_id=None):
 def get_tweets(api, target_username):
     max_id = None
     all_tweets = []
-    pages = 1
+    pages = 5
     tweets_per_page = 100
     for page in range(1, pages + 1):
         try:
