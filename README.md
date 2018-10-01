@@ -36,15 +36,15 @@ The bot is launched by using console command `python App.py`. Additionaly, an in
 
 - Tweets of [@HellthyJunkFood](https://twitter.com/HellthyJunkFood)
 
-![HealthyJunkFood](\Images\HellthyJunkFood.png)
+![HealthyJunkFood](/Images/HellthyJunkFood.png)
 
 - Tweets of [@k_huck](https://twitter.com/k_huck)
 
-![k_huck](\Images\k_huck.png)
+![k_huck](/Images/k_huck.png)
 
 - Tweets of [@UCIrvine](https://twitter.com/UCIrvine)
 
-![UCIrvine](\Images\UCIrvine.png)
+![UCIrvine](/Images/UCIrvine.png)
 
 ## Notes
 
