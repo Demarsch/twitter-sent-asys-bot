@@ -49,3 +49,5 @@ The bot is launched by using console command `python App.py`. Additionaly, an in
 ## Notes
 
 Keep in mind that Twitter will most likely not return mentions that are done by users who is likely not human e.g. if a user post something via Twitter API, do repetitive tweets or just a new user with next to no tweets of follows
+
+P.S. The bot was developed and tested under [@ChaplyginAndrei](https://twitter.com/ChaplyginAndrei) account, follow this link to see more examples
