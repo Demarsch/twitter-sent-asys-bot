@@ -32,7 +32,7 @@ The bot is written in Python and requires the following dependencies:
 
 ## Description
 
-The bot is launched by using console command `python App.py`. Additionaly, an integer argument can be provided that defines the total running time in seconds (default is 360 seconds = 5 minutes). The bot will check every minute for all mentions of the current user and if it detects a tweet where it is mentioned along with another user (target user), it then loads up to 500 latest tweets of the target user, performs a sentiment analysis of them using [VADER](https://github.com/cjhutto/vaderSentiment), plot a line chart of the compound score and reply back to the original tweet posting this chart. The bot tries to prevent abuse by scanning each account only once. Below are some example of these charts
+The bot is launched by using console command `python App.py`. Additionaly, an integer argument can be provided that defines the total running time in seconds (default is 360 seconds = 5 minutes). The bot checks every minute for all mentions of the current user and if it detects a tweet where it is mentioned along with another user (target user), it then loads up to 500 latest tweets of the target user, performs a sentiment analysis of them using [VADER](https://github.com/cjhutto/vaderSentiment), plots a line chart of the compound score and replies back to the original tweet, posting this chart. The bot tries to prevent abuse by scanning each account only once. Below are some example of these charts
 
 - Tweets of [@HellthyJunkFood](https://twitter.com/HellthyJunkFood)
 
@@ -48,6 +48,6 @@ The bot is launched by using console command `python App.py`. Additionaly, an in
 
 ## Notes
 
-Keep in mind that Twitter will most likely not return mentions that are done by users who is likely not human e.g. if a user post something via Twitter API, do repetitive tweets or just a new user with next to no tweets of follows
+Keep in mind that Twitter will most likely not return mentions that are done by users who are likely not human e.g. if a user posted something via Twitter API, did repetitive tweets or is just a new user with next to no tweets of follows.
 
 P.S. The bot was developed and tested under [@ChaplyginAndrei](https://twitter.com/ChaplyginAndrei) account, follow this link to see more examples
